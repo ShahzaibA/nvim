@@ -48,7 +48,6 @@ lazy.setup({
     { 'kyazdani42/nvim-web-devicons', lazy = true },
     
     -- Fugitive Nvim
-    {   'tpope/vim-fugitive', lazy = true },
     {   'tpope/vim-fugitive' },
 
     -- Git labels
