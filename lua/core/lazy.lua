@@ -49,6 +49,7 @@ lazy.setup({
     
     -- Fugitive Nvim
     {   'tpope/vim-fugitive', lazy = true },
+    {   'tpope/vim-fugitive' },
 
     -- Git labels
     {
