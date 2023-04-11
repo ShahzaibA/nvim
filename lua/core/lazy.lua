@@ -47,7 +47,7 @@ lazy.setup({
     -- Icons
     { 'kyazdani42/nvim-web-devicons', lazy = true },
     
-    -- Fugitive Nvim
+    -- Git Integrations
     {   'tpope/vim-fugitive' },
 
     -- Git labels
@@ -98,6 +98,8 @@ lazy.setup({
 
     -- LSP
     { 'neovim/nvim-lspconfig' },
+
+    {   'kkoomen/vim-doge'  }, 
 
     -- Autocomplete
     {
