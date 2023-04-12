@@ -98,6 +98,8 @@ lazy.setup({
 
     -- LSP
     { 'neovim/nvim-lspconfig' },
+    
+    {   'mfussenegger/nvim-jdtls'   },
 
     {   'kkoomen/vim-doge'  }, 
 

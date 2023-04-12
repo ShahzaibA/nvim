@@ -72,3 +72,6 @@ map('n', '<leader>z', ':TagbarToggle<CR>')          -- open/close
 map('n', '<leader>ff', ':Telescope find_files<CR>') -- find files
 map('n', '<leader>fg', ':Telescope live_grep<CR>')  -- live grep
 map('n', '<leader>fb', ':Telescope buffers<CR>')    -- buffers
+
+-- DOcument GEnerator
+map('n', '<leader>dg', ':DogeGenerate<CR>') -- Add doc generator
