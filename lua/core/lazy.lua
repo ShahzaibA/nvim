@@ -40,10 +40,6 @@ lazy.setup({
       priority = 1000, -- make sure to load this before all the other start plugins
     },
 
-    -- other colorschemes:
-    { 'tanvirtin/monokai.nvim', lazy = true },
-    { 'https://github.com/rose-pine/neovim', name = 'rose-pine', lazy = true },
-    
     -- Icons
     { 'kyazdani42/nvim-web-devicons', lazy = true },
     
@@ -96,12 +92,15 @@ lazy.setup({
       end
     },
 
-    -- LSP
-    { 'neovim/nvim-lspconfig' },
-    
-    {   'mfussenegger/nvim-jdtls'   },
+    -- lsp
+    { 'williamboman/mason.nvim' },
 
-    {   'kkoomen/vim-doge'  }, 
+    { 'williamboman/mason-lspconfig.nvim' },
+
+    { 'neovim/nvim-lspconfig' },
+
+    -- Document Generator
+    { 'kkoomen/vim-doge' }, 
 
     -- Autocomplete
     {
@@ -121,8 +120,8 @@ lazy.setup({
 
     -- Telescope
     {
-        'nvim-telescope/telescope.nvim',
-        dependencies = { 'nvim-lua/plenary.nvim' }
+      'nvim-telescope/telescope.nvim',
+      dependencies = { 'nvim-lua/plenary.nvim' }
     },
   },
 })
