@@ -39,6 +39,9 @@ lazy.setup({
       lazy = false, -- make sure we load this during startup if it is your main colorscheme
       priority = 1000, -- make sure to load this before all the other start plugins
     },
+    -- other colorschemes:
+    { 'tanvirtin/monokai.nvim', lazy = true },
+    { 'https://github.com/rose-pine/neovim', name = 'rose-pine', lazy = true },
 
     -- Icons
     { 'kyazdani42/nvim-web-devicons', lazy = true },
